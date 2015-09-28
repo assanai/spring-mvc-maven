@@ -14,7 +14,7 @@ public class HomeController {
     @RequestMapping(name = "/home")
     public String home() {
 
-        LOGGER.info("*** home ***");
+        LOGGER.info("welcome to home controller...");
 
 
 
