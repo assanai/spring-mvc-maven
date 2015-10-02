@@ -16,7 +16,14 @@ public class HomeController {
     public String home() {
 
         LOGGER.info("welcome to home controller...");
+        LOGGER.info("test reloading... xxx");
 
+        return "home";
+    }
+
+    @RequestMapping(name = "/index", method = RequestMethod.GET)
+    private String index() {
+        LOGGER.info("test reloading index....");
         return "home";
     }
 
