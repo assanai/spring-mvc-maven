@@ -116,6 +116,7 @@
                 <version>${plugin.tomcat.version}</version>
                 <configuration>
                     <path>/${project.build.finalName}</path>
+                    <contextReloadable>true</contextReloadable>
                 </configuration>
             </plugin>
 
