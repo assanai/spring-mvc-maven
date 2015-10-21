@@ -1,4 +1,4 @@
-package com.assanai;
+package com.assanai.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
