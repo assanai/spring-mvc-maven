@@ -15,15 +15,14 @@ public class HomeController {
     @RequestMapping(value = "/home", method = RequestMethod.GET)
     public String home() {
 
-        LOGGER.info("welcome to home controller...");
-        LOGGER.info("test reloading... xxx");
+        LOGGER.info("home...");
 
         return "home";
     }
 
     @RequestMapping(name = "/index", method = RequestMethod.GET)
     private String index() {
-        LOGGER.info("test reloading index....");
+        LOGGER.info("index....");
         return "home";
     }
 
